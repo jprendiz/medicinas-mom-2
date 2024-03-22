@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    background-image: url(pill.jpeg);
+    color: #373636;
+  }
+  
+  .title {
+    background-color: #EFBC9B;
+    width: 100%;
+    height: 32px;
+    margin-top: 40px;  
+  }
+  
+  .container-titulo p {
+    font-family: "Fleur De Leah", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #666;
+    font-size: 72px;
+    text-align: center;
+    margin-top: -70px;
+  }
+  
+  .titulo-small {
+    display: none;
+  }
+
+  .container-medicamentos {
+    display: grid;
+    letter-spacing: 1px;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+
+  .container-medicamentos div {
+    border: solid 3px #DBE7C9;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding: 10px 20px;
+  }
+  
+  .container-medicamentos div :nth-child(1) {
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+  }
+  
+  .container-medicamentos div :nth-child(2) {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+  }
+  
+  .container-medicamentos div :nth-child(3) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  #m1 {
+    background-color: #DFF5FF;
+  }
+
+  #m2 {
+    background-color: #EEE;
+  }
+
+  #m3 {
+    background-color: #DAFFFB;
+  }
+
+  #m4 {
+    background-color: #E2F4C5;
+  }
+
+  #m5 {
+    background-color: #F1FADA;
+  }
+
+  #m6 {
+    background-color: #FFFDD7;
+  }
+  
+  #m7 {
+    background-color: #F4EDCC;
+  }
+  
+  #m8 {
+    background-color: #E8D8C4;
+  }
+
+  #m9 {
+    background-color: #FFEAA7;
+  }
+
+  #m10 {
+    background-color: #FFE7E7;
+  }
+
+  #m11 {
+    background-color: #FFE4CF;
+  }
+
+  #m12 {
+    background-color: #F8EDE3;
+  }
+
+  #m13 {
+    background-color: #FFCAD4;
+  }
+
+  #m14 {
+    background-color: #FFD0EC;
+  }
+
+  #m15 {
+    background-color: #F0F3FF;
+  }
+
+  #m16 {
+    background-color: #EEE;
+  }
+
+  @media screen and (max-width: 470px) {
+    .titulo {
+      display: none;
+    }
+    .titulo-small {
+      display:block;
+    }
+  }
